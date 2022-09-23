@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Readium Test OPDS Catalog"
+  },
+
+  "links": [{ "rel": "self", "href": "#", "type": "application/opds+json" }],
+  "publications": [
+    {
+      "metadata": {
+        "@type": "http://schema.org/Book",
+        "title": "Moby-Dick",
+        "author": { "name": "Herman Melville", "sortAs": "Melville, Herman" },
+        "identifier": "http://www.feedbooks.com/book/54/moby-dick",
+        "language": "en",
+        "modified": "2018-04-23T23:18:00Z",
+        "published": "1851-01-01",
+        "publisher": "Feedbooks",
+        "description": "Moby-Dick is an 1851 novel by Herman Melville. The story tells the adventures of the wandering sailor Ishmael and his voyage on the whaling ship Pequod, commanded by Captain Ahab. Ishmael soon learns that Ahab seeks one specific whale, Moby-Dick, a white whale of tremendous size and ferocity. Comparatively few whaling ships know of Moby-Dick, and fewer yet have encountered him. In a previous encounter, the whale destroyed Ahab's boat and bit off his leg. Ahab intends to exact revenge."
+      },
+      "links": [
+        {
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "href": "https://test.opds.io/assets/moby/file.epub",
+          "type": "application/epub+zip"
+        }
+      ],
+      "images": [
+        {
+          "href": "https://test.opds.io/assets/moby/small.jpg",
+          "type": "image/jpeg",
+          "height": 169,
+          "width": 110
+        },
+        {
+          "href": "https://test.opds.io/assets/moby/normal.jpg",
+          "type": "image/jpeg",
+          "height": 400,
+          "width": 260
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/ComicStory",
+        "title": "Cory Doctorow's Futuristic Tales of the Here and Now",
+        "author": { "name": "Cory Doctorow", "sortAs": "Doctorow, Cory" },
+        "identifier": "CoryDoctorowsFuturisticTalesOfTheHereAndNow",
+        "language": "en",
+        "modified": "2016-08-11T19:32:18Z",
+        "published": "2008-06-17",
+        "publisher": "IDW Publishing",
+        "description": ""
+      },
+      "links": [
+        {
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "href": "https://archive.org/download/CoryDoctorowsFuturisticTalesOfTheHereAndNow/Cory_Doctorows_Futuristic_Tales_of_the_Here_and_Now_CBZ.cbz",
+          "type": "application/vnd.comicbook+zip"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "http://schema.org/Audiobook",
+        "title": "Flatland",
+        "author": {
+          "name": "Edwin Abbott Abbott",
+          "sortAs": "Abbott, Abbott Edwin"
+        },
+        "identifier": "https://librivox.org/flatland-a-romance-of-many-dimensions-by-edwin-abbott-abbott/",
+        "language": "en",
+        "modified": "2016-08-11T19:32:18Z",
+        "published": "2008-10-12",
+        "publisher": "Librivox",
+        "description": "Flatland: A Romance of Many Dimensions is an 1884 science fiction novella by the English schoolmaster Edwin Abbott Abbott. As a satire, Flatland offered pointed observations on the social hierarchy of Victorian culture. However, the novella's more enduring contribution is its examination of dimensions; in a foreword to one of the many publications of the novella, noted science writer Isaac Asimov described Flatland as \"The best introduction one can find into the manner of perceiving dimensions.\" As such, the novella is still popular amongst mathematics, physics and computer science students. (Summary by Wikipedia)"
+      },
+      "links": [
+        {
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "href": "https://readium.org/webpub-manifest/examples/Flatland/manifest.json",
+          "type": "application/audiobook+json"
+        }
+      ],
+      "images": [
+        {
+          "href": "https://www.archive.org/download/LibrivoxCdCoverArt12/Flatland_1109.jpg",
+          "type": "image/jpeg",
+          "height": 300,
+          "width": 300
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "@type": "https://schema.org/DigitalDocument",
+        "title": "Alice in Wonderland Retold in Words of One Syllable",
+        "author": {
+          "name": "J.C. Gorham",
+          "sortAs": "Gorham, J.C."
+        },
+        "identifier": "https://manybooks.net/titles/carrolll1903319033-8.html",
+        "language": "en",
+        "modified": "2016-08-11T19:32:18Z",
+        "published": "2006-10-16",
+        "publisher": "A.L. Burt Company",
+        "description": ""
+      },
+      "links": [
+        {
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "href": "",
+          "type": "application/pdf"
+        }
+      ],
+      "images": [
+        {
+          "href": "",
+          "type": "image/jpeg",
+          "height": 330,
+          "width": 220
+        }
+      ]
+    }    
+  ]
+}

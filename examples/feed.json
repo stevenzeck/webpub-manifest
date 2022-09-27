@@ -60,7 +60,7 @@
       ],
       "images": [
         {
-          "href": "https://github.com/stevenzeck/webpub-manifest/tree/readium-opds-feed/examples/fantastic-tales-cover.jpg",
+          "href": "https://github.com/stevenzeck/webpub-manifest/raw/readium-opds-feed/examples/fantastic-tales-cover.jpg",
           "type": "image/jpeg",
           "height": 1040,
           "width": 654
@@ -116,13 +116,13 @@
       "links": [
         {
           "rel": "http://opds-spec.org/acquisition/open-access",
-          "href": "https://github.com/stevenzeck/webpub-manifest/tree/readium-opds-feed/examples/AliceInWonderland/Alice-in-Wonderland.pdf",
+          "href": "https://github.com/stevenzeck/webpub-manifest/raw/readium-opds-feed/examples/AliceInWonderland/Alice-in-Wonderland.pdf",
           "type": "application/pdf"
         }
       ],
       "images": [
         {
-          "href": "https://github.com/stevenzeck/webpub-manifest/tree/readium-opds-feed/examples/AliceInWonderland/alice-in-wonderland-cover.jpeg",
+          "href": "https://github.com/stevenzeck/webpub-manifest/raw/readium-opds-feed/examples/AliceInWonderland/alice-in-wonderland-cover.jpeg",
           "type": "image/jpeg",
           "height": 330,
           "width": 220

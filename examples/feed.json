@@ -57,6 +57,14 @@
           "href": "https://archive.org/download/CoryDoctorowsFuturisticTalesOfTheHereAndNow/Cory_Doctorows_Futuristic_Tales_of_the_Here_and_Now_CBZ.cbz",
           "type": "application/vnd.comicbook+zip"
         }
+      ],
+      "images": [
+        {
+          "href": "fantastic-tales-cover.jpg",
+          "type": "image/jpeg",
+          "height": 1040,
+          "width": 654
+        }
       ]
     },
     {
@@ -108,13 +116,13 @@
       "links": [
         {
           "rel": "http://opds-spec.org/acquisition/open-access",
-          "href": "",
+          "href": "AliceInWonderland/Alice-in-Wonderland.pdf",
           "type": "application/pdf"
         }
       ],
       "images": [
         {
-          "href": "",
+          "href": "AliceInWonderland/alice-in-wonderland-cover.jpeg",
           "type": "image/jpeg",
           "height": 330,
           "width": 220
